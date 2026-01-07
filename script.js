@@ -19,8 +19,10 @@ const players = [
   "Picello Davide",
   "Rafi Ismail",
   "Ramon Pietro",
+  "Rocco Edoardo",
   "Rocco Pietro",
   "Siscanu Matteo",
+  "Varisco Riccardo",
   "Zanardi Nicolo",
   "Zecchin Manuel"
 ];
@@ -73,3 +75,4 @@ function resetAll() {
     cb.dispatchEvent(new Event("change"));
   });
 }
+
