@@ -1,30 +1,30 @@
 const players = [
-  "Bastianello Mattia",
-  "Bongiovi Alessandro",
-  "Bozzato Matteo",
-  "Cerasuolo Luca",
-  "Cesarato Christopher",
-  "Chellin Alessandro",
-  "Crivellaro Mattia",
-  "Faggian Mario",
-  "Favero Nicola",
-  "Gabbatore Emanuele",
-  "Lando Lorenzo",
-  "Luise Leone",
-  "Olejniczak Denis",
-  "Paiano Francesco",
-  "Palese Marco",
-  "Paulino Marcus",
-  "Pattaro Tommaso",
-  "Picello Davide",
-  "Rafi Ismail",
-  "Ramon Pietro",
-  "Rocco Edoardo",
-  "Rocco Pietro",
-  "Siscanu Matteo",
-  "Varisco Riccardo",
-  "Zanardi Nicolo",
-  "Zecchin Manuel"
+"Avella Mattia",
+"Bastianello Mattia",
+"Belebsir Ibrahim",
+"Bongiovi Alessandro",
+"Borgo Federico",
+"Cavalletto Andrea",
+"Cesarato Christopher",
+"Crivellaro Mattia",
+"Dante Nicolo",
+"Faggian Mario",
+"Ferrandes Davide",
+"Gabbatore Emanuele",
+"Grigoletto Filippo",
+"Irrera Luca",
+"Lando Lorenzo",
+"Meneghin Andrew",
+"Olejniczak Denis",
+"Paiano Francesco",
+"Picello Davide",
+"Pitarresi Antonio",
+"Rocco Pietro",
+"Sartori Alessandro",
+"Signorelli Francesco",
+"Signorelli Mattia",
+"Siscanu Matteo",
+"Spinello Alberto"
 ];
 const tableBody = document.querySelector("#players-table tbody");
 const counter = document.getElementById("counter");
@@ -75,4 +75,3 @@ function resetAll() {
     cb.dispatchEvent(new Event("change"));
   });
 }
-
